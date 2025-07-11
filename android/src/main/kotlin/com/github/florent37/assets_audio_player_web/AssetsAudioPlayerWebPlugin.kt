@@ -9,7 +9,7 @@ import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
-import io.flutter.plugin.common.PluginRegistry.Registrar
+// import io.flutter.plugin.common.PluginRegistry.Registrar
 
 /** AssetsAudioPlayerWebPlugin */
 public class AssetsAudioPlayerWebPlugin: FlutterPlugin, MethodCallHandler {
@@ -20,12 +20,12 @@ public class AssetsAudioPlayerWebPlugin: FlutterPlugin, MethodCallHandler {
     //no-op for compatibility
   }
 
-  companion object {
-    @JvmStatic
-    fun registerWith(registrar: Registrar) {
-      //no-op for compatibility
-    }
-  }
+  // companion object {
+  //   @JvmStatic
+  //   fun registerWith(registrar: Registrar) {
+  //     //no-op for compatibility
+  //   }
+  // }
 
   override fun onMethodCall(call: MethodCall, result: Result) {
     //no-op for compatibility
