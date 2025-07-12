@@ -20,13 +20,6 @@ public class AssetsAudioPlayerWebPlugin: FlutterPlugin, MethodCallHandler {
     //no-op for compatibility
   }
 
-  companion object {
-    @JvmStatic
-    fun registerWith(registrar: Registrar) {
-      //no-op for compatibility
-    }
-  }
-
   override fun onMethodCall(call: MethodCall, result: Result) {
     //no-op for compatibility
   }
